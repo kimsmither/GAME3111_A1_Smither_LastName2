@@ -693,9 +693,10 @@ GeometryGenerator::MeshData GeometryGenerator::CreatePyramid(float width, float 
 	return meshData;
 }
 
-GeometryGenerator::MeshData GeometryGenerator::CreateWedge(float width, float height, float depth, uint32 numSubDivisions)
+GeometryGenerator::MeshData GeometryGenerator::CreateFlatTopPyramid(float width, float topWidth, float height)
 {
 	MeshData meshData;
+	meshData = CreateCylinder(width, topWidth, height, 4, 64);
 	return meshData;
 }
 

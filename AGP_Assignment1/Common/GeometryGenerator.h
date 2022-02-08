@@ -86,7 +86,7 @@ public:
 
 	MeshData CreatePyramid(float width, float height);
 
-	MeshData CreateWedge(float width, float height, float depth, uint32 numSubDivisions);
+	MeshData CreateFlatTopPyramid(float width, float topWidth, float height);
 
 	//~~~~~~~~~~~~~~~~Additional Shapes~~~~~~~~~~~~//
 
