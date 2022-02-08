@@ -1,0 +1,17 @@
+﻿FXC : warning : no output provided for debug - embedding PDB in shader container.  Use -Qembed_debug to silence this warning.
+  
+FXC : warning : no output provided for debug - embedding PDB in shader container.  Use -Qembed_debug to silence this warning.
+  
+  Camera.cpp
+  d3dApp.cpp
+  d3dUtil.cpp
+C:\Users\kimmi\Desktop\AGP_Assignment1\Common\d3dUtil.cpp(30,5): warning C4244: 'argument': conversion from 'std::streamoff' to 'SIZE_T', possible loss of data
+C:\Users\kimmi\Desktop\AGP_Assignment1\Common\d3dUtil.cpp(70,32): warning C4244: '=': conversion from 'UINT64' to 'LONG_PTR', possible loss of data
+  DDSTextureLoader.cpp
+  GameTimer.cpp
+  GeometryGenerator.cpp
+  MathHelper.cpp
+  FrameResource.cpp
+  Week4-1-BoxUsingFrameResources.cpp
+  Generating Code...
+  AGP_Lab4.vcxproj -> C:\Users\kimmi\Desktop\AGP_Assignment1\AGP_Lab4\Debug\AGP_Lab4.exe
