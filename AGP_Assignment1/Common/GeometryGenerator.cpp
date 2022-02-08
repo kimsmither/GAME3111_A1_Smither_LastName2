@@ -658,17 +658,17 @@ GeometryGenerator::MeshData GeometryGenerator::CreateQuad(float x, float y, floa
 
 
 //~~~~~~~~~~~~~~~~Additional Shapes~~~~~~~~~~~~//
-GeometryGenerator::MeshData GeometryGenerator::CreateCone(float bottomRadius, float height, uint32 sliceCount, uint32 stackCount)
+GeometryGenerator::MeshData GeometryGenerator::CreateCone(float bottomRadius, float height)
 {
 	MeshData meshData; 
-	meshData = CreateCylinder(bottomRadius, 0, height, sliceCount, stackCount);
+	meshData = CreateCylinder(bottomRadius, 0, height, 64, 64);
 	return meshData;
 }
 
-GeometryGenerator::MeshData GeometryGenerator::CreateRectangularPrism(float width, float height, float depth, uint32 numSubDivisions) 
+GeometryGenerator::MeshData GeometryGenerator::CreateRectangularPrism(float width, float height, float depth) 
 {
 	MeshData meshData;
-	meshData = CreateBox(width, height, depth, numSubDivisions);
+	meshData = CreateBox(width, height, depth, 64);
 	return meshData;
 }
 

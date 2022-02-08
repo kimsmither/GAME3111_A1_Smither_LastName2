@@ -76,9 +76,9 @@ public:
 
 	//~~~~~~~~~~~~~~~~Additional Shapes~~~~~~~~~~~~//
 
-	MeshData CreateCone(float bottomRadius, float height, uint32 sliceCount, uint32 stackCount);
+	MeshData CreateCone(float bottomRadius, float height);
 
-	MeshData CreateRectangularPrism(float width, float height, float depth, uint32 numSubDivisions);
+	MeshData CreateRectangularPrism(float width, float height, float depth);
 
 	MeshData CreateTriangularPrism(float width, float height);
 
